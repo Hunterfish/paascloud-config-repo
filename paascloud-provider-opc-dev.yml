@@ -61,11 +61,11 @@ paascloud:
     zkAddressList: paascloud-provider-zk:2181
   qiniu:
     key:
-      accessKey: yourQiniuAccessKey
-      secretKey: yourQiniuSecretKey
+      accessKey: R6XeZdNQ1z0XhZiB28YPypbFoWY74seph0wJ82Ca
+      secretKey: nGFx8WmSwiHwKWgfQWzFMMGAtEvzY3jCocuRNjKN
     oss:
-      privateHost:
-      publicHost:
+      privateHost: http://batjob.ddebug.cn/
+      publicHost: http://batjob.ddebug.cn/
       fileMaxSize: 104857600
   oauth2:
     jwtSigningKey: paascloud

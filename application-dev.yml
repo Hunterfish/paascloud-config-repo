@@ -19,7 +19,7 @@ spring:
     password: guest
   redis:
     host: paascloud-db-redis
-    password: 123456
+    password: paascloud@redis
     port: 6379
     timeout: 0
   datasource:
@@ -124,11 +124,11 @@ paascloud:
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
-      accessKey: 'your qiniu accessKey'
-      secretKey: 'your qiniu secretKey'
+      accessKey: R6XeZdNQ1z0XhZiB28YPypbFoWY74seph0wJ82Ca
+      secretKey: nGFx8WmSwiHwKWgfQWzFMMGAtEvzY3jCocuRNjKN
     oss:
-      privateHost: 'your qiniu oss private host'
-      publicHost: 'your qiniu oss public host'
+      privateHost: http://batjob.ddebug.cn/
+      publicHost: http://batjob.ddebug.cn/
   alipay:
     callback:
       url: http://dev-api.paascloud.net/omc/pay/alipayCallback
